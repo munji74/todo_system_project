@@ -13,30 +13,30 @@ Both apps are connected to a shared Firebase backend for real-time task manageme
 
 todo_system_project/
 
-│
+    │
 
     ├── flutter_todo_app/ # User-facing Flutter application
     
-    │ ├── lib/
-    
-    │ ├── pubspec.yaml
-    
-    │ └── ...
-    
-    │
+        │ ├── lib/
+        
+        │ ├── pubspec.yaml
+        
+        │ └── ...
+        
+        │
 
-├── todo-admin-panel/ # Admin Panel built with React/Next.js
-
-  │ ├── pages/
-  
-  │ ├── app/
-  
-  │ ├── package.json
-  
-  │ └── ...
-  
-  │
-
+    ├── todo-admin-panel/ # Admin Panel built with React/Next.js
+    
+          │ ├── pages/
+          
+          │ ├── app/
+          
+          │ ├── package.json
+          
+          │ └── ...
+          
+          │
+        
 └── README.md
 
 ---
