@@ -78,12 +78,15 @@ Still, in production, it is **recommended** to:
 cd flutter_todo_app
 flutter pub get
 flutter run
+```
 React Admin Panel
 
+```bash
 cd todo-admin-panel
 npm install
 npm run dev
 Then visit: http://localhost:3000
+```
 
 🛡️ Security Notes
 This is a demo project, so:
