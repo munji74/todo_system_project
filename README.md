@@ -12,6 +12,7 @@ Both apps are connected to a shared Firebase backend for real-time task manageme
 
 
 todo_system_project/
+
 │
 
 ├── flutter_todo_app/ # User-facing Flutter application
