@@ -15,15 +15,15 @@ todo_system_project/
 
 │
 
-  ├── flutter_todo_app/ # User-facing Flutter application
-  
-  │ ├── lib/
-  
-  │ ├── pubspec.yaml
-  
-  │ └── ...
-  
-  │
+    ├── flutter_todo_app/ # User-facing Flutter application
+    
+    │ ├── lib/
+    
+    │ ├── pubspec.yaml
+    
+    │ └── ...
+    
+    │
 
 ├── todo-admin-panel/ # Admin Panel built with React/Next.js
 
