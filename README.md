@@ -1,14 +1,14 @@
-# 📝 ToDo System Project
+# ToDo System Project
 
 This repository contains a full-stack **To-Do System** with:
-- ✅ A **Flutter User App** (Mobile/Web)
-- ✅ A **React Admin Panel** (Next.js + Firebase)
+-  A **Flutter User App** (Mobile/Web)
+-  A **React Admin Panel** (Next.js + Firebase)
 
 Both apps are connected to a shared Firebase backend for real-time task management.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 todo_system_project/
 │
@@ -27,21 +27,21 @@ todo_system_project/
 
 ---
 
-## 🚀 Features
+## Features
 
-### 👤 Flutter User App
+### Flutter User App
 - Add, view, and mark tasks as completed
 - Modern, responsive UI with animations
 - Confirmation dialogs and hover effects (web)
 
-### 🧑‍💼 React Admin Panel
+### React Admin Panel
 - Full CRUD on tasks
 - Animated UI with light theme
 - Realtime updates via Firebase Firestore
 
 ---
 
-## 🔧 Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 - Node.js + npm for admin panel
@@ -49,20 +49,20 @@ todo_system_project/
 
 ---
 
-### 🔥 Firebase Setup (Shared)
+### Firebase Setup (Shared)
 
 Both apps use the same Firebase project:
 - Firestore database (collection: `todos`)
 - No authentication is enforced (for demo purposes)
 
-> **⚠️ Firebase Config Exposure**
+> **Firebase Config Exposure**
 >
 > This project includes the `firebaseConfig` object in both apps. This is **safe** for frontend-only apps using Firebase, because:
 >
 > - It **does not expose sensitive credentials** like private keys.
 > - Firebase projects use **security rules** to control access — that’s where you define who can read/write.
 >
-> ✅ Even if someone has your `firebaseConfig`, they cannot access your database unless your [Firestore Rules](https://firebase.google.com/docs/firestore/security/get-started) allow it.
+> Even if someone has your `firebaseConfig`, they cannot access your database unless your [Firestore Rules](https://firebase.google.com/docs/firestore/security/get-started) allow it.
 
 Still, in production, it is **recommended** to:
 - Use authentication (Firebase Auth or custom auth)
@@ -70,7 +70,7 @@ Still, in production, it is **recommended** to:
 
 ---
 
-## 🧪 Running the Apps
+## Running the Apps
 
 ### Flutter App
 
@@ -95,10 +95,6 @@ No authentication
 
 Rules are relaxed for read/write
 
-Ensure you tighten these before deploying
+### Author
+Munjwok James Alala
 
-📌 Author
-Built with ❤️ by Munjwok James Alala
-
-📜 License
-This project is open-source and free to use.
